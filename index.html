@@ -5,184 +5,278 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Thomas Kleist Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+	<title>Thomas Kleist Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Thomas Kleist</h1>
-						<p> Engineer and Designer</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<body class="is-preload">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Thomas Kleist</a>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>Thomas Kleist</h1>
+			<p> Engineer and Designer</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Thomas Kleist</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">Projects</a></li>
+				<li><a href="workExperience.html">Work Experience</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.youtube.com/@kleistrobotics2220/featured" class="icon brands fa-youtube"><span
+							class="label">YouTube</span></a></li>
+				<li><a href="https://www.linkedin.com/in/thomas-kleist-791770275" class="icon brands fa-linkedin"><span
+							class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/Thomas-Kleist" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://www.youtube.com/watch?v=Pt27RXlIz3k&list=PLb8BYJIDJHz0OzWEeXWOvXUHMQa06fpEe">Trackless
+							Dark Ride </a></h2>
+				</header>
+				<a href="#" class="image main"><img src="images/Ride.jpg" alt="" /></a>
+				<p>This project has taken all of my controls, networking, and mechanical design knowledge to pull off. I
+					started with powered wheel chair and replaced all of the electronics with microcontrollers and a
+					Linux computer. I prototyped many systems for localization of the robot, starting with a LIDAR based
+					system, then a inferred light based system, and finally settling on a computer vision based
+					approach. The computer on board uses computer vision and a camera onboard to track AURCO markers
+					applied to the ground and an Extended Kalman Filter to fuse the readings from the wheel encoders and
+					vision tracking. I developed an inferred laser gun to add interaction to the ride experience. The
+					ride vehicle and show systems all connect to a main computer to synchronize the ride experience. </p>
+
+				<ul class="actions special">
+					<li><a href="https://www.youtube.com/watch?v=Pt27RXlIz3k&list=PLb8BYJIDJHz0OzWEeXWOvXUHMQa06fpEe"
+							class="button large">Watch Videos</a></li>
+				</ul>
+			</article>
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://sasquatchcontrols.com/blogs/clydes-corner/iiot-in-the-pump-industry">Using IIoT
+							in the Pump Industry </a></h2>
+				</header>
+				<a href="#" class="image main"><img src="images/IOTArticle.webp" alt="" /></a>
+				<p>A professional article I authored for See Water Inc., about my IOT based remote monitoring system
+					that I developed as an intern. </p>
+
+				<ul class="actions special">
+					<li><a href="https://sasquatchcontrols.com/blogs/clydes-corner/iiot-in-the-pump-industry"
+							class="button large">Read Article</a></li>
+				</ul>
+			</article>
+
+			<article class="post featured">
+				<header class="major">
+					<h2><a
+							href="https://youtube.com/playlist?list=PLb8BYJIDJHz2ENnhA6cGEgif57aFwmKoV&si=i-XxEj33F3hcObmu">Animatronic
+							Prairie Dog </a></h2>
+				</header>
+				<a href="#" class="image main"><img src="images/prariedog.png" alt="" /></a>
+				<p>This figure, which started it's life as a stuffed animal, incorporates 3 movements.
+					The lift is a custom designed rack and pinion system designed to be 3D printed as one part and store
+					inside the figure when it is lowered.
+					The arm movement is lifts the arms to give the illusion that the figure is eating some of the grass
+					in its hands.
+					The nose wiggle gives the effect of sniffing or eating grass depending on the animation and sound
+					effects.
+					This project was the culmination of the development of my custom animation program, my arduino based
+					control and audio system, and my mechanical design skills. </p>
+
+				<ul class="actions special">
+					<li><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz2ENnhA6cGEgif57aFwmKoV&si=i-XxEj33F3hcObmu"
+							class="button large">Watch Videos</a></li>
+				</ul>
+			</article>
+
+			<article class="post featured">
+				<header class="major">
+					<h2>LIDAR based navigation </h2>
+				</header>
+				<a class="image main"><img src="images/lidar.png" alt="" /></a>
+				<p>This project uses a 360 degree LIDAR range finder to localize a robot within a room using
+					simultaneous localization and mapping (SLAM) techniques. I plan to take this project further to
+					incorporate rgb-distance cameras to make 3D maps of the environment for a robot to navigate, as well
+					as external tracking through an infrared camera based system. This is applicable to automated guided
+					vehicles (AGVs) used in warehouses and theme parks. </p>
+			</article>
+
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<h2><a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv">Acrobatic
+								Robot</a></h2>
 					</header>
+					<a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv"
+						class="image fit"><img src="images/acrobatic robot.jpg" alt="" /></a>
+					<p>This robot, based on Disney's stickman robot, uses folding legs to mimic the motion of a human
+						acrobat. By closing it's legs at the right moment, the robot would able to slow down its
+						rotation and land flat on its back. I was able to get it working in simulation, but not in real
+						world trials. </p>
+					<ul class="actions special">
+						<li><a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv"
+								class="button">Watch Videos</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a
+								href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7">Robot
+								Quadruped</a></h2>
+					</header>
+					<a href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7"
+						class="image fit"><img src="images/dog.png" alt="" /></a>
+					<p>This robot uses unique 5 bar linkage legs to navigate the world. The robot is able to walk
+						forward, but due to the cheap and inaccurate motors used, the robot has a hard time with any
+						other motions. I plan to revisit this project with a larger design and incorporating what I am
+						learning about lidar and 3D cameras to navigate obstacles. </p>
+					<ul class="actions special">
+						<li><a href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7"
+								class="button">Watch Video</a></li>
+					</ul>
+				</article>
+			</section>
+			<article class="post featured">
+				<header class="major">
+					<h2><a href="https://www.youtube.com/watch?v=yvyRKrCmw_0">Animatronic Tiki Bird </a></h2>
+				</header>
+				<a href="https://www.youtube.com/watch?v=yvyRKrCmw_0" class="image main"><img src="images/bird.jpg"
+						alt="" /></a>
+				<p>This figure incorporates a unique neck design with a compliant foam neck driven by 4 bowden cables
+					and a 5th rotational axis. This allows for unique neck motion, such as moving the head forwards and
+					backwards, in addition to tilting in any direction. This design was also my first experiment
+					creating functional and aesthetic 3D printed parts with the bird's head. </p>
+				<ul class="actions special">
+					<li><a href="https://www.youtube.com/watch?v=yvyRKrCmw_0" class="button large">Watch Video</a></li>
+				</ul>
+			</article>
+			<section class="posts">
+				<article>
+					<header>
+						<h2><a
+								href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7">Raspberry
+								Pi Pico <br />
+								Sensor and Actuator Libraries</a></h2>
+					</header>
+					<a href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7"
+						class="image fit"><img src="images/pico.jpg" alt="" /></a>
+					<p>Since the first release of the Raspberry Pi Pico microcontroller to now, I've been writing
+						libraries to work with sensors and external components via standards like I2C, SPI, and PWM.
+						Working on this gave me the skills to program industrial microprocessor based control panels and
+						SCADA systems. </p>
+					<ul class="actions special">
+						<li><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7"
+								class="button">Watch Videos</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="https://www.youtube.com/watch?v=fpJLFxkCBSo">Animatronic Animator </a></h2>
+					</header>
+					<a href="https://www.youtube.com/watch?v=fpJLFxkCBSo" class="image fit"><img
+							src="images/animator.png" alt="" /></a>
+					<p>This custom program to animate animatronics was integrated with my arduino based control system.
+						It allowed for real time playback of the animation on the figure, automatic audio
+						synchronization, joystick control, timeline animation control, and saving the animation directly
+						to the figure for independent playback. </p>
+					<ul class="actions special">
+						<li><a href="https://www.youtube.com/watch?v=fpJLFxkCBSo" class="button">Watch Video</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8">Yabbit </a></h2>
+					</header>
+					<a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8" class="image fit"><img src="images/yabbit.jpg"
+							alt="" /></a>
+					<p>Yabbit was my first animatronic, an alien with color changing eyes and the ability to spit on
+						you. This figure is where I started learning from puppet making tutorials to make the figure
+						itself. It is also where I first developed my animatronic control system and animator program.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8" class="button">Watch Video</a></li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2><a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc">Animatronic Internal Eye Mechanism</a>
+						</h2>
+					</header>
+					<a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc" class="image fit"><img src="images/eye.png"
+							alt="" /></a>
+					<p>Based on a Disney patent, this mechanism uses electromagnets embedded within the animatronic eye
+						to drive the animation of the eye without any motors behind it. This allows for much more
+						compact eye mechanisms. </p>
+					<ul class="actions special">
+						<li><a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc" class="button">Watch Video</a></li>
+					</ul>
+				</article>
+			</section>
+		</div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="workExperience.html">Work Experience</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.youtube.com/@kleistrobotics2220/featured" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-							<li><a href="https://www.linkedin.com/in/thomas-kleist-791770275" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Thomas-Kleist" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section>
+					<h3>Contact</h3>
+					<p><a href="#">thomasfkleist@gmail.com</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.youtube.com/@kleistrobotics2220/featured"
+								class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.linkedin.com/in/thomas-kleist-791770275"
+								class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Thomas-Kleist" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
 
-				<!-- Main -->
-					<div id="main">
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>Thomas Kleist</ul>
+		</div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz2ENnhA6cGEgif57aFwmKoV&si=i-XxEj33F3hcObmu">Animatronic Prairie Dog </a></h2>
-								</header>
-								<a href="#" class="image main"><img src="images/prariedog.png" alt="" /></a>
-								<p>This figure, which started it's life as a stuffed animal, incorporates 3 movements. 
-									The lift is a custom designed rack and pinion system designed to be 3D printed as one part and store inside the figure when it is lowered. 
-									The arm movement is lifts the arms to give the illusion that the figure is eating some of the grass in its hands.
-									The nose wiggle gives the effect of sniffing or eating grass depending on the animation and sound effects.
-									This project was the culmination of the development of my custom animation program, my arduino based control and audio system, and my mechanical design skills. </p>
+	</div>
 
-								<ul class="actions special">
-									<li><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz2ENnhA6cGEgif57aFwmKoV&si=i-XxEj33F3hcObmu" class="button large">Watch Videos</a></li>
-								</ul>
-							</article>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-							<article class="post featured">
-								<header class="major">
-									<h2>LIDAR based navigation </h2>
-								</header>
-								<a class="image main"><img src="images/lidar.png" alt="" /></a>
-								<p>This project uses a 360 degree LIDAR range finder to localize a robot within a room using simultaneous localization and mapping (SLAM) techniques. I plan to take this project further to incorporate rgb-distance cameras to make 3D maps of the environment for a robot to navigate, as well as external tracking through an infrared camera based system. This is applicable to automated guided vehicles (AGVs) used in warehouses and theme parks.  </p>
-							</article>
+</body>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv">Acrobatic Robot</a></h2>
-									</header>
-									<a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv" class="image fit"><img src="images/acrobatic robot.jpg" alt="" /></a>
-									<p>This robot, based on Disney's stickman robot, uses folding legs to mimic the motion of a human acrobat. By closing it's legs at the right moment, the robot would able to slow down its rotation and land flat on its back. I was able to get it working in simulation, but not in real world trials. </p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/playlist?list=PLb8BYJIDJHz2NChLXIFjf0_6kH-oyihnv" class="button">Watch Videos</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7">Robot Quadruped</a></h2>
-									</header>
-									<a href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7" class="image fit"><img src="images/dog.png" alt="" /></a>
-									<p>This robot uses unique 5 bar linkage legs to navigate the world. The robot is able to walk forward, but due to the cheap and inaccurate motors used, the robot has a hard time with any other motions. I plan to revisit this project with a larger design and incorporating what I am learning about lidar and 3D cameras to navigate obstacles. </p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=Bs1_yTGkXFI&list=PLb8BYJIDJHz1BYm8ilxNKr97vUXXGPwd7" class="button">Watch Video</a></li>
-									</ul>
-								</article>
-							</section>
-								<article class="post featured">
-									<header class="major">
-										<h2><a href="https://www.youtube.com/watch?v=yvyRKrCmw_0">Animatronic Tiki Bird </a></h2>
-									</header>
-									<a href="https://www.youtube.com/watch?v=yvyRKrCmw_0" class="image main"><img src="images/bird.jpg" alt="" /></a>
-									<p>This figure incorporates a unique neck design with a compliant foam neck driven by 4 bowden cables and a 5th rotational axis. This allows for unique neck motion, such as moving the head forwards and backwards, in addition to tilting in any direction. This design was also my first experiment creating functional and aesthetic 3D printed parts with the bird's head. </p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=yvyRKrCmw_0" class="button large">Watch Video</a></li>
-									</ul>
-								</article>
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7">Raspberry Pi Pico <br />
-											Sensor and Actuator Libraries</a></h2>
-									</header>
-									<a href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7" class="image fit"><img src="images/pico.jpg" alt="" /></a>
-									<p>Since the first release of the Raspberry Pi Pico microcontroller to now, I've been writing libraries to work with sensors and external components via standards like I2C, SPI, and PWM. Working on this gave me the skills to program industrial microprocessor based control panels and SCADA systems. </p>
-									<ul class="actions special">
-										<li><a href="https://youtube.com/playlist?list=PLb8BYJIDJHz0c-mEw8VTx_66Oi9WxgY5T&si=u3lPK7GTsv103Gc7" class="button">Watch Videos</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://www.youtube.com/watch?v=fpJLFxkCBSo">Animatronic Animator </a></h2>
-									</header>
-									<a href="https://www.youtube.com/watch?v=fpJLFxkCBSo" class="image fit"><img src="images/animator.png" alt="" /></a>
-									<p>This custom program to animate animatronics was integrated with my arduino based control system. It allowed for real time playback of the animation on the figure, automatic audio synchronization, joystick control, timeline animation control, and saving the animation directly to the figure for independent playback. </p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=fpJLFxkCBSo" class="button">Watch Video</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8">Yabbit	</a></h2>
-									</header>
-									<a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8" class="image fit"><img src="images/yabbit.jpg" alt="" /></a>
-									<p>Yabbit was my first animatronic, an alien with color changing eyes and the ability to spit on you. This figure is where I started learning from puppet making tutorials to make the figure itself. It is also where I first developed my animatronic control system and animator program.</p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=gpuwMGnlZZ8" class="button">Watch Video</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc">Animatronic Internal Eye Mechanism</a></h2>
-									</header>
-									<a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc" class="image fit"><img src="images/eye.png" alt="" /></a>
-									<p>Based on a Disney patent, this mechanism uses electromagnets embedded within the animatronic eye to drive the animation of the eye without any motors behind it. This allows for much more compact eye mechanisms. </p>
-									<ul class="actions special">
-										<li><a href="https://www.youtube.com/watch?v=YfV2WZWF1Vc" class="button">Watch Video</a></li>
-									</ul>
-								</article>
-							</section>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section>
-								<h3>Contact</h3>
-								<p><a href="#">thomasfkleist@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.youtube.com/@kleistrobotics2220/featured" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
-									<li><a href="https://www.linkedin.com/in/thomas-kleist-791770275" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Thomas-Kleist" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-										</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul>Thomas Kleist</ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
